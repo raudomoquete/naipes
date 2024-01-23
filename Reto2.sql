@@ -1,3 +1,51 @@
+Identificación de Microservicios
+Gestión de Estudiantes:
+
+Microservicio: Estudiantes
+Endpoints:
+/estudiantes: Obtener todos los estudiantes.
+/estudiantes/{id}: Obtener información de un estudiante específico.
+/estudiantes/crear: Crear un nuevo estudiante.
+/estudiantes/{id}/actualizar: Actualizar información de un estudiante.
+/estudiantes/{id}/eliminar: Eliminar un estudiante.
+
+Gestión de Notas:
+
+Microservicio: Notas
+Endpoints:
+/notas: Obtener todas las notas.
+/notas/{id}: Obtener información de una nota específica.
+/notas/crear: Registrar una nueva nota.
+/notas/{id}/actualizar: Actualizar información de una nota.
+/notas/{id}/eliminar: Eliminar una nota.
+Gestión de Cursos:
+
+Microservicio: Cursos
+Endpoints:
+/cursos: Obtener todos los cursos.
+/cursos/{id}: Obtener información de un curso específico.
+/cursos/crear: Crear un nuevo curso.
+/cursos/{id}/actualizar: Actualizar información de un curso.
+/cursos/{id}/eliminar: Eliminar un curso.
+Gestión de Profesores:
+
+Microservicio: Profesores
+Endpoints:
+/profesores: Obtener todos los profesores.
+/profesores/{id}: Obtener información de un profesor específico.
+/profesores/crear: Crear un nuevo profesor.
+/profesores/{id}/actualizar: Actualizar información de un profesor.
+/profesores/{id}/eliminar: Eliminar un profesor.
+Gestión de Matrículas:
+
+Microservicio: Matriculas
+Endpoints:
+/matriculas: Obtener todas las matrículas.
+/matriculas/{id}: Obtener información de una matrícula específica.
+/matriculas/crear: Realizar una nueva matrícula.
+/matriculas/{id}/actualizar: Actualizar información de una matrícula.
+/matriculas/{id}/eliminar: Eliminar una matrícula.
+
 CREATE DATABASE ColegioABC123;
 
 USE ColegioABC123;
